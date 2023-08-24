@@ -1,0 +1,49 @@
+@media screen and (min-width:490px){
+    /* Formatações */
+
+    nav.menu_mobile{
+        display: none;
+    }
+    .btn_menu{
+        display: none;
+    }
+    .title{
+        display: flex;
+    }
+    body{
+        font-size: 1.3em;
+    }
+    header{
+        justify-content: center;
+    }
+    nav.menu_pc{
+        display: block;
+    }
+    nav.menu_pc{
+        background-color: blue;
+    }
+    nav.menu_pc > menu > ul{
+        width: 60%;
+        display: flex;
+        padding: 10px;
+        color: white;
+        font-weight: bolder;
+        align-items: center;
+        justify-content: space-around;
+    }
+    section.imagem{
+        height: 550px;
+        flex-direction: row;
+
+    }
+    div.img{
+        height: 100%;
+        width: 50%;
+    }
+    div.des{
+        height: 100%;
+        width: 50%;
+        
+    }
+    
+}

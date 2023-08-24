@@ -1,0 +1,43 @@
+.texto{
+    border-top: 2px solid white;
+    border-bottom: 3px solid white;
+    color: white;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    font-weight: bolder;
+    text-shadow: 1px  1px 3px black;
+    justify-content: center;
+    background-color: #2bca2ba1;
+}
+.texto > p{
+    padding: 10px;
+    text-align: center;
+}
+.imagem{
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    background: #8f8fccbd center no-repeat fixed;
+    background-size: cover;
+}
+.img{
+    height:40%;
+}
+.des{
+    height: 60%;
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff75;
+}
+.des > p{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
