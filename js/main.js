@@ -20,7 +20,7 @@ window.onresize = ()=>{
 const elementos  = [
     {
         tex1:'Aréas a venda em local rural em vilage do Sol Guarapari Es',
-        tex2:'Lotes bem localizados em locais com uma grande chance de crescer'
+        tex2:'Lotes bem localizados em ruas principais'
     },
     {
         img1:'https://casacor.abril.com.br/wp-content/uploads/sites/7/2022/01/Casa-Liu-Raiz-Arquitetura-Foto-Leonardo-Giantomasi-2.jpg?quality=90&strip=info',
