@@ -29,7 +29,7 @@ const elementos  = [
     },
     {
         des1:'Area com 20.000m², campo society, poço de peixes, plantação e muito +',
-        des2:'Área com casa pronta, imperdível!'
+        des2:''
     },
 ]
 
@@ -76,3 +76,28 @@ async function editar(){
     })
 }
 editar()
+
+
+const lotes_imagens = [
+   {img:''},
+   {img:''},
+   {img:''},
+   {img:''}  
+   
+]
+
+
+function create(){
+    const fotos = document.getElementsByClassName('fotos')[0]
+    for(c = 0;c<=lotes_imagens.length;c++){
+        const div = document.createElement('div')
+        div.style.width='100%'
+        div.style.height='auto'
+        div.style.background='red'
+        fotos.appendChild(div)
+
+        
+    }  
+}
+
+create()

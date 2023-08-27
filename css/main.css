@@ -28,6 +28,7 @@ body{
     font-size: 1.2em;
 }
 header{
+    padding: 10px;
     display: flex;
     color: white;
     align-items: center;
